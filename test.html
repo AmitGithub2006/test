@@ -144,8 +144,9 @@
     </table>
     <p>This table has been taken from cricket website: <a href="">click here</a> to visit</p>
     <p>I am cricket guru btw, if you want to know something, you can contact me</p>
-    <form action="" style="border: 1px solid black;">Contact Form<br>
-        <div style="padding: 12px;">
+    <form action=""><br>
+        <fieldset>
+        <legend>Contact Form</legend>
         <label for="name">Full Name:</label><br>
         <input type="text"><br>
         <label for="email">Email:</label><br>
@@ -164,21 +165,22 @@
         <input type="radio" name="gender">
         <label for="gender">others</label><br><br>
         <label for="">Select your favourite player:</label><br>
-        <select name="" id="">
-            <option value="">Sehwag</option>
-            <option value="">Kohli</option>
-            <option value="">Ganguly</option>
-            <option value="">Sachin</option>
-            <option value="">Laxman</option>
-            <option value="">Dravid</option>
-            <option value="">Kaif</option>
-            <option value="">Zaheer</option>
-        </select><br>
+        <input list="hello">
+        <datalist id="hello">
+            <option value="Sehwag"></option>
+            <option value="Kohli"></option>
+            <option value="Ganguly"></option>
+            <option value="Sachin"></option>
+            <option value="Laxman"></option>
+            <option value="Dravid"></option>
+            <option value="Kaif"></option>
+            <option value="Zaheer"></option>
+        </datalist><br>
         <label for="">Address:</label><br>
         <textarea name="" id="" cols="30" rows="5"></textarea><br>
-        <button>Register</button>
+        <input type="submit" value="Register">
+    </fieldset>
     </form>
-</div>
     <p>with everything we also came to end so a departing gift from our side:</p>
     <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></iframe>
 </body>
